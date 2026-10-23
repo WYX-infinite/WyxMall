@@ -1,0 +1,16 @@
+package com.test.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.test.entity.OrderMaster;
+
+/**
+ * <p>
+ * 订单表 Mapper 接口
+ * </p>
+ *
+ * @author wyx
+ * @since 2026-08-18
+ */
+public interface OrderMasterMapper extends BaseMapper<OrderMaster> {
+
+}

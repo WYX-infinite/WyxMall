@@ -1,0 +1,81 @@
+testRunId,eventId,orderId,requestAt,responseAt,sentAt,consumedAt,receivedAt,httpStatus,error,notificationCount,requestIndex
+20261023T035050Z-connectivity-r1-b2be1f10,,,1792727451876,1792727454166,,,,200,"
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+### The error may exist in com/test/mapper/OrderMasterMapper.java (best guess)
+### The error may involve com.test.mapper.OrderMasterMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO order_master  ( order_id, buyer_name, buyer_phone, buyer_address, buyer_openid, order_amount, order_status, pay_status, create_time, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+; Data truncation: Data too long for column 'buyer_name' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1",0,1
+20261023T035050Z-connectivity-r1-b2be1f10,,,1792727454166,1792727454198,,,,200,"
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+### The error may exist in com/test/mapper/OrderMasterMapper.java (best guess)
+### The error may involve com.test.mapper.OrderMasterMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO order_master  ( order_id, buyer_name, buyer_phone, buyer_address, buyer_openid, order_amount, order_status, pay_status, create_time, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+; Data truncation: Data too long for column 'buyer_name' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1",0,2
+20261023T035050Z-connectivity-r1-b2be1f10,,,1792727454198,1792727454224,,,,200,"
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+### The error may exist in com/test/mapper/OrderMasterMapper.java (best guess)
+### The error may involve com.test.mapper.OrderMasterMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO order_master  ( order_id, buyer_name, buyer_phone, buyer_address, buyer_openid, order_amount, order_status, pay_status, create_time, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+; Data truncation: Data too long for column 'buyer_name' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1",0,3
+20261023T035050Z-connectivity-r1-b2be1f10,,,1792727454224,1792727454257,,,,200,"
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+### The error may exist in com/test/mapper/OrderMasterMapper.java (best guess)
+### The error may involve com.test.mapper.OrderMasterMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO order_master  ( order_id, buyer_name, buyer_phone, buyer_address, buyer_openid, order_amount, order_status, pay_status, create_time, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+; Data truncation: Data too long for column 'buyer_name' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1",0,4
+20261023T035050Z-connectivity-r1-b2be1f10,,,1792727454257,1792727454288,,,,200,"
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+### The error may exist in com/test/mapper/OrderMasterMapper.java (best guess)
+### The error may involve com.test.mapper.OrderMasterMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO order_master  ( order_id, buyer_name, buyer_phone, buyer_address, buyer_openid, order_amount, order_status, pay_status, create_time, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+; Data truncation: Data too long for column 'buyer_name' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1",0,5
+20261023T035050Z-connectivity-r1-b2be1f10,,,1792727454288,1792727454315,,,,200,"
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+### The error may exist in com/test/mapper/OrderMasterMapper.java (best guess)
+### The error may involve com.test.mapper.OrderMasterMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO order_master  ( order_id, buyer_name, buyer_phone, buyer_address, buyer_openid, order_amount, order_status, pay_status, create_time, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+; Data truncation: Data too long for column 'buyer_name' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1",0,6
+20261023T035050Z-connectivity-r1-b2be1f10,,,1792727454315,1792727454362,,,,200,"
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+### The error may exist in com/test/mapper/OrderMasterMapper.java (best guess)
+### The error may involve com.test.mapper.OrderMasterMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO order_master  ( order_id, buyer_name, buyer_phone, buyer_address, buyer_openid, order_amount, order_status, pay_status, create_time, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+; Data truncation: Data too long for column 'buyer_name' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1",0,7
+20261023T035050Z-connectivity-r1-b2be1f10,,,1792727454362,1792727454390,,,,200,"
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+### The error may exist in com/test/mapper/OrderMasterMapper.java (best guess)
+### The error may involve com.test.mapper.OrderMasterMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO order_master  ( order_id, buyer_name, buyer_phone, buyer_address, buyer_openid, order_amount, order_status, pay_status, create_time, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+; Data truncation: Data too long for column 'buyer_name' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1",0,8
+20261023T035050Z-connectivity-r1-b2be1f10,,,1792727454390,1792727454416,,,,200,"
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+### The error may exist in com/test/mapper/OrderMasterMapper.java (best guess)
+### The error may involve com.test.mapper.OrderMasterMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO order_master  ( order_id, buyer_name, buyer_phone, buyer_address, buyer_openid, order_amount, order_status, pay_status, create_time, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+; Data truncation: Data too long for column 'buyer_name' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1",0,9
+20261023T035050Z-connectivity-r1-b2be1f10,,,1792727454416,1792727454439,,,,200,"
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+### The error may exist in com/test/mapper/OrderMasterMapper.java (best guess)
+### The error may involve com.test.mapper.OrderMasterMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO order_master  ( order_id, buyer_name, buyer_phone, buyer_address, buyer_openid, order_amount, order_status, pay_status, create_time, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1
+; Data truncation: Data too long for column 'buyer_name' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'buyer_name' at row 1",0,10

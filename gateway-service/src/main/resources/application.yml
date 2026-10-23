@@ -1,0 +1,24 @@
+server:
+  port: 8686
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      globalcors:
+        # 对经过网关的所有路径启用 CORS
+        cors-configurations:
+          '[/**]':
+            # 只允许买家端和卖家端这两个来源
+            allowed-origins:
+              - "http://localhost:8383"
+              - "http://localhost:8282"
+            # 允许 Content-Type、token 等请求头
+            allowed-headers: "*"
+            # 允许 GET、POST、PUT、DELETE、OPTIONS 等方法
+            allowed-methods: "*"
+            # 浏览器可以缓存预检结果一小时
+            max-age: 3600
+      discovery:
+        locator:
+          enabled: true

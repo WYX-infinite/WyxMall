@@ -1,0 +1,65 @@
+{
+  "discoveryError": null,
+  "cleanupResults": [
+    {
+      "orderId": "c5a2b89897e9874e2910d8a65968330c",
+      "ok": true,
+      "httpStatus": 200,
+      "error": null
+    },
+    {
+      "orderId": "18946ddc8ab7fc757650f97414f0c62e",
+      "ok": false,
+      "httpStatus": 200,
+      "error": "已取消的订单不能取消"
+    },
+    {
+      "orderId": "685debd83f760890ba7d11789d3cced2",
+      "ok": false,
+      "httpStatus": 200,
+      "error": "已取消的订单不能取消"
+    },
+    {
+      "orderId": "ded40785e1103635535d53f5af55b8ce",
+      "ok": false,
+      "httpStatus": 200,
+      "error": "已取消的订单不能取消"
+    },
+    {
+      "orderId": "1a55e288918a9a3f30f103d6fe8c567b",
+      "ok": false,
+      "httpStatus": 200,
+      "error": "已取消的订单不能取消"
+    },
+    {
+      "orderId": "90816d0a28869603885659d5da340fc8",
+      "ok": false,
+      "httpStatus": 200,
+      "error": "已取消的订单不能取消"
+    },
+    {
+      "orderId": "e3f235ec020a99e34ca82a75a8a0f43a",
+      "ok": false,
+      "httpStatus": 200,
+      "error": "已取消的订单不能取消"
+    },
+    {
+      "orderId": "dd26a7b0b3f741b7638cb226a76d3bb5",
+      "ok": false,
+      "httpStatus": 200,
+      "error": "已取消的订单不能取消"
+    },
+    {
+      "orderId": "8d647151e953254c0d465960968a9659",
+      "ok": false,
+      "httpStatus": 200,
+      "error": "已取消的订单不能取消"
+    },
+    {
+      "orderId": "34f7e44f4cb228bd5f3a1707ae79dc93",
+      "ok": false,
+      "httpStatus": 200,
+      "error": "已取消的订单不能取消"
+    }
+  ]
+}

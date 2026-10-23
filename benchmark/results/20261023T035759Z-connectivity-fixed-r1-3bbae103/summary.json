@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-23T03:58:04.590Z",
+  "testRunId": "20261023T035759Z-connectivity-fixed-r1-3bbae103",
+  "stage": "connectivity-fixed",
+  "round": 1,
+  "warmup": false,
+  "requests": 10,
+  "concurrency": 1,
+  "clients": 1,
+  "buyerId": 1776007399,
+  "productId": 5,
+  "quantity": 1,
+  "orderSuccessCount": 10,
+  "orderSuccessRate": 1,
+  "uniqueNotifiedOrders": 10,
+  "notificationSuccessRate": 1,
+  "messageLossCount": 0,
+  "duplicateNotificationCount": 0,
+  "expectedClientDeliveries": 10,
+  "uniqueClientDeliveries": 10,
+  "clientDeliveryLossCount": 0,
+  "unmatchedNotificationCount": 0,
+  "ignoredMessageCount": 0,
+  "latency": {
+    "mqConsume": {
+      "count": 10,
+      "average": 1113.2,
+      "p50": 999,
+      "p95": 2097,
+      "p99": 2097,
+      "max": 2097
+    },
+    "websocketPush": {
+      "count": 10,
+      "average": 72.9,
+      "p50": 73,
+      "p95": 74,
+      "p99": 74,
+      "max": 74
+    },
+    "notificationE2E": {
+      "count": 10,
+      "average": 1186.1,
+      "p50": 1070,
+      "p95": 2167,
+      "p99": 2167,
+      "max": 2167
+    },
+    "businessPerceived": {
+      "count": 10,
+      "average": 1401.9,
+      "p50": 1127,
+      "p95": 3811,
+      "p99": 3811,
+      "max": 3811
+    }
+  },
+  "stock": {
+    "before": 1084,
+    "afterCreate": 1074,
+    "afterCleanup": 1084
+  },
+  "cleanup": {
+    "targetCount": 10,
+    "discoveredOrderCount": 10,
+    "failedCount": 0,
+    "discoveryError": null,
+    "verified": true
+  },
+  "environment": {
+    "node": "v24.14.0",
+    "platform": "win32-x64",
+    "scope": "local functional and lightweight performance test",
+    "websocketDelivery": "online clients only"
+  }
+}

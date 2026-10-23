@@ -1,0 +1,65 @@
+{
+  "discoveryError": null,
+  "cleanupResults": [
+    {
+      "orderId": "3634abe0314cd72ab661f14677be7b65",
+      "ok": true,
+      "httpStatus": 200,
+      "error": null
+    },
+    {
+      "orderId": "cb9b3546129ebcf517a97f75c6de8679",
+      "ok": true,
+      "httpStatus": 200,
+      "error": null
+    },
+    {
+      "orderId": "7007a8c87eb7ca5e3a1b3942f00b0bd4",
+      "ok": true,
+      "httpStatus": 200,
+      "error": null
+    },
+    {
+      "orderId": "a30bf8be8bed66ae0ca1a1021339e236",
+      "ok": true,
+      "httpStatus": 200,
+      "error": null
+    },
+    {
+      "orderId": "c334a36e72b6ec661e5e542239e0ae71",
+      "ok": true,
+      "httpStatus": 200,
+      "error": null
+    },
+    {
+      "orderId": "d6694023b3cbfe5e064ebc184d56a31b",
+      "ok": true,
+      "httpStatus": 200,
+      "error": null
+    },
+    {
+      "orderId": "971a3dea5b7c4d9d286249e4de884a10",
+      "ok": true,
+      "httpStatus": 200,
+      "error": null
+    },
+    {
+      "orderId": "23c239a298484df859d592279701891c",
+      "ok": true,
+      "httpStatus": 200,
+      "error": null
+    },
+    {
+      "orderId": "679215e28bb9b987196593792544faaf",
+      "ok": true,
+      "httpStatus": 200,
+      "error": null
+    },
+    {
+      "orderId": "bf147a42a2ec6d2c6d88451ff7e21f22",
+      "ok": true,
+      "httpStatus": 200,
+      "error": null
+    }
+  ]
+}
