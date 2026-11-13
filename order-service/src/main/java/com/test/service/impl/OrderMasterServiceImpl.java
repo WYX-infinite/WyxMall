@@ -16,5 +16,8 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class OrderMasterServiceImpl extends ServiceImpl<OrderMasterMapper, OrderMaster> implements OrderMasterService {
-
+    @Override
+    public boolean cancelIfPending(String orderId, Integer buyerId) {
+        return this.baseMapper.cancelIfPending(orderId,buyerId) == 1;
+    }
 }

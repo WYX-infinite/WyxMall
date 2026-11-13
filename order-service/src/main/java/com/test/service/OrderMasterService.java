@@ -12,5 +12,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2026-08-18
  */
 public interface OrderMasterService extends IService<OrderMaster> {
-
+    boolean cancelIfPending(String orderId,Integer buyerId);
 }

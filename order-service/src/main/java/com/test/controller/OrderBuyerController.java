@@ -170,10 +170,9 @@ public class OrderBuyerController {
         if(orderMaster == null) throw new ShopException(ResponseEnum.ORDER_NULL.getMsg());
         if(orderMaster.getOrderStatus() == 1) throw new ShopException(ResponseEnum.ORDER_FINISH.getMsg());
         if(orderMaster.getOrderStatus() == 2) throw new ShopException(ResponseEnum.ORDER_CANCEL.getMsg());
-        orderMaster.setOrderStatus(2);
-        // Must update only the selected order. update(entity, null) emits an UPDATE without WHERE.
-        this.orderMasterService.updateById(orderMaster);
-        //恢复库存
+        boolean cancelled = this.orderMasterService.cancelIfPending(orderId, buyerId);
+        if(!cancelled) throw new ShopException(ResponseEnum.ORDER_CANCEL.getMsg());
+        //只有取得取消资格的请求才能恢复库存
         List<OrderDetail> orderDetailList = this.orderDetailService.list(new QueryWrapper<OrderDetail>().eq("order_id", orderId));
         for(OrderDetail orderDetail : orderDetailList){
             Integer productId = orderDetail.getProductId();

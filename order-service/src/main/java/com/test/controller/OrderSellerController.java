@@ -70,8 +70,8 @@ public class OrderSellerController {
         if(orderMaster == null) throw new ShopException(ResponseEnum.ORDER_NULL.getMsg());
         if(orderMaster.getOrderStatus() == 1) throw new ShopException(ResponseEnum.ORDER_FINISH.getMsg());
         if(orderMaster.getOrderStatus() == 2) throw new ShopException(ResponseEnum.ORDER_CANCEL.getMsg());
-        orderMaster.setOrderStatus(2);
-        this.orderMasterService.update(orderMaster,null);
+        boolean cancelled = this.orderMasterService.cancelIfPending(orderId, null);
+        if(!cancelled) throw new ShopException(ResponseEnum.ORDER_CANCEL.getMsg());
         //恢复库存
         List<OrderDetail> orderDetailList = this.orderDetailService.list(new QueryWrapper<OrderDetail>().eq("order_id", orderId));
         for(OrderDetail orderDetail : orderDetailList){
